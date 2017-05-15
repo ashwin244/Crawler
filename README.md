@@ -13,7 +13,7 @@ Implementation :
 
 2. Restful request to initiate crawler : http://localhost:8080/setInfo?url=<URL\>&maxDepth=\<depth\>. By default maxDepth is set to 2.
 
-3. Restful request to get information about crawled pages : http://localhost:8080/getInfo?url=<URL>.
+3. Restful request to get information about crawled pages : http://localhost:8080/getInfo?url=<URL\>.
   a. If URL exist in database returns : {"url":"http://events.eclipse.org","statusCode":200,"timeStamp":1494885529000}
   b. If URL doesn't exist in database : {"url":"URL doesn't exist","statusCode":0,"timeStamp":0}
 
