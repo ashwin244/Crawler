@@ -11,7 +11,7 @@ Implementation :
 
 1. Spring boot java application which crawls web-pages from root url at depth 0 until it reaches the maxDepth.
 
-2. Restful request to initiate crawler : http://localhost:8080/setInfo?url=<URL>&maxDepth=<depth>. By default maxDepth is set to 2.
+2. Restful request to initiate crawler : http://localhost:8080/setInfo?url=\<URL\>&maxDepth=\<depth\>. By default maxDepth is set to 2.
 
 3. Restful request to get information about crawled pages : http://localhost:8080/getInfo?url=<URL>.
   a. If URL exist in database returns : {"url":"http://events.eclipse.org","statusCode":200,"timeStamp":1494885529000}
